@@ -2,23 +2,8 @@
 " While editing a Markdown document in Vim, preview it in the
 " default browser.
 "
-" Author: Nate Silva
+" See readme.mdown for more information
 "
-" To install: Place markdown.vim in ~/.vim/ftplugin or
-" %USERPROFILE%\vimfiles\ftplugin.
-"
-" To use: While editing a Markdown file, press ',p' (comma p)
-"
-" Tested on Windows and Mac OS X. Should work on Linux if you set
-" BROWSER_COMMAND properly.
-"
-" Requires the `markdown` command to be on the system path. If you
-" do not have the `markdown` command, install one of the following:
-"
-" http://www.pell.portland.or.us/~orc/Code/discount/
-" http://www.freewisdom.org/projects/python-markdown/
-"
-
 
 if !exists("g:markdown_preview_templatefile")
 	let s:current_file=expand("<sfile>")
